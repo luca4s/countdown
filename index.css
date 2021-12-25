@@ -1,0 +1,19 @@
+a {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 98vh;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}

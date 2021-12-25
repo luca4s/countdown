@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="title">Contagem Regressiva</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    </head>
+    <body>
+        <audio id="complete"><source src="audios/BA_Level_Up.ogg" type="audio/ogg"></audio>
+        <audio id="countdown"><source src="audios/countdown.mp3" type="audio/mp3"></audio>
+        <div id="select">
+            <br>
+            <input type="date" id="date" name="date" required>
+            <input type="time" id="time" name="time" required>
+            <br><br>
+            <button onclick='buttonOK(`${document.getElementById("date").value}, ${document.getElementById("time").value}`)'>OK</button>
+        </div>
+        <div class="center">
+            <a id="time"></a>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
