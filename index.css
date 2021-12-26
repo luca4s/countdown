@@ -1,13 +1,4 @@
-a {
-    text-align: center;
-    margin-top: 0px;
-}
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 98vh;
     font-size: 60px;
 }
 body {
