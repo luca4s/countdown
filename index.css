@@ -1,6 +1,5 @@
 a {
     text-align: center;
-    font-size: 60px;
     margin-top: 0px;
 }
 .center {
@@ -9,11 +8,12 @@ a {
     align-items: center;
     text-align: center;
     min-height: 98vh;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 60px;
 }
 body {
     background-color: black;
     color: white;
     text-align: center;
     overflow: hidden;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
