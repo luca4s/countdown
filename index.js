@@ -21,7 +21,7 @@ function startCountdown() {
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
         document.getElementById("time").innerHTML = `${days} dias<br>${hours} horas<br>${minutes} minutos<br>${seconds} segundos`;
-        document.getElementById("ctrtitle").innerHTML = `Contagem Regressiva para: ${CountDate}`
+        document.getElementById("ctrtitle").innerHTML = `Contagem Regressiva para:<br>${CountDate}<br>`
         if (distance < 10999 && distance > 1000 && tentoone == false) {
             tentoone = true;
             audio1.play();
