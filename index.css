@@ -10,6 +10,14 @@ a {
     min-height: 98vh;
     font-size: 60px;
 }
+.center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 98vh;
+    font-size: 60px;
+}
 body {
     background-color: black;
     color: white;
